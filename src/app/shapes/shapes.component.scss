@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.circle {
+  width: 1vw;
+  height: 1vw;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #9C69E2;
+  margin-right: 4px;
+}
+.rectangle {
+  width: 1vw;
+  height: 1.75vw;
+  display: inline-block;
+  border-radius: 1vw;
+  background-color: #F063B8;
+}

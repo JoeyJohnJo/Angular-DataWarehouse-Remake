@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+:root {
+  --base: linear-gradient(#F6FAFD, #FFF);
+  --color_body: #4B5D68;
+  --color_heading: #212353;
+  --font_heading: 'Lato', sans-serif;
+  --font_body: 'Varela Round', sans-serif;
+  --padding_large: 10vw;
+  --padding_mid: 2vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.base {
+  background-image: var(--base);
+  padding-left: var(--padding_large);
+  padding-top: var(--padding_mid);
+  padding-right:  var(--padding_large);
+}
+
+$large-text: 3vw;
+$xlarge-text: 5vw;
+
+.heading, .xl-heading {
+  font-family: var(--font_heading);
+  color: var(--color_heading);
+  font-weight: bolder;
+}
+.heading { font-size: $large-text}
+.xl-heading { font-size: $xlarge-text; }
+
+.body-text, .body-subtitle {
+  font-family: var(--font_body);
+  color: var(--color_body);
+  font-size: 18px;
+}
+.body-subtitle {
+  color: var(--color_heading);
+  font-weight: bolder;
+}

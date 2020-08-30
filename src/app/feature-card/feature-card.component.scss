@@ -1,0 +1,16 @@
+$heading-size: 24px;
+.card-heading {
+  font-family: var(--font_heading);
+  color: var(--color_heading);
+  font-size: $heading-size;
+}
+img {margin-right: 2vw;}
+svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.container {
+  position: relative;
+  padding-top: 5vw;
+}

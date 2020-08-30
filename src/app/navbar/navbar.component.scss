@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: 3% 10% 25% 60%;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-item {
+  color: var(--color_body);
+  font-family: var(--font_body);
+}
+.navbar-item:hover {
+  color: var(--color_heading);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.align-right {
+  margin-left: auto;
+}
