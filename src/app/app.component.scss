@@ -19,6 +19,11 @@
   justify-content: center;
   align-items: flex-start;
 }
+.feature-section {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10vw;
+}
 
 .card {
   background-color: rgba(240, 99, 184, 0.15);
@@ -39,6 +44,8 @@
 .footer-grid {
   display: grid;
   grid-template-columns: 50% 15% 15% 20%;
+  padding-right:  var(--padding_large);
+  margin-bottom: 3vw;
 }
 
 
