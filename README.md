@@ -1,6 +1,7 @@
-# Prototipagem
+# Angular DataWarehouse Remake
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+Remake of the Figma design located at https://www.figma.com/file/3QYe413SHr9nD7dEM6TGvn/SLAB-SHOT-Datawarehouse-Freebie?node-id=413%3A3
 
 ## Development server
 
